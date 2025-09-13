@@ -10,7 +10,7 @@ export function WhatsAppWidget() {
   const [isVisible, setIsVisible] = useState(true)
 
   const handleWhatsAppClick = () => {
-    const message = `Hi! I'm ${user?.name || "a user"} and I need help with my FinPlan Pro account.`
+    const message = `Hi! I'm ${user?.name || "a user"} and I need help with my Only VPW account.`
     const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
